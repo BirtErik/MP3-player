@@ -1,0 +1,34 @@
+KLASA ZA EXCEPTIONE
+
+Static: Broj playanih pjesama
+
+Play/pause(ispis pokrenute pjesme, i trajanje) mogucnost previous/next(ide po vektoru).
+
+
+IDEJE;
+	Playlista: metoda search, metoda ubaci i izbaci.✅
+PITANJA;
+	Barem jedna klasa koristi drugu klasu kao podatkovni član.?✅
+
+Cista Virtualna metoda: info.✅
+"Obicna virtualna": ✅
+
+class izvođac. Pjesma sadrzi izvodaca koji je pointer.✅
+Copy constructor: playlistu.✅
+Operatori: ==, + itd... Operator == za pjesme u klasu media.✅
+Template Poseban zadatak.
+
+
+class PlayPause{
+previous/next (Search po vektoru playliste).
+info (currently playing: title, artist, title playlist)
+play/pause: ispis info-a.
+
+
+}
+
+ZA REMOVE
+auto rezultat = std::find (zapisi.begin(), zapisi.end(), m);
+  if (*rezultat == m){
+    delete this;
+  }
